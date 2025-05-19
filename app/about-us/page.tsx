@@ -13,12 +13,12 @@ export default function AboutUs() {
 
       <section className="pt-28 pb-12 bg-white flex-grow">
         <div className="container mx-auto px-4">
-          <h1 className="text-3xl font-bold mb-8">About 10BestBettingIrishSite.com</h1>
+          <h1 className="text-3xl font-bold mb-8">About bestbettingirishsite.com</h1>
 
           <div className="prose max-w-4xl">
             <h2>Our Vision</h2>
             <p>
-              At 10BestBettingIrishSite.com, we've established ourselves as Ireland's premier destination for betting
+              At bestbettingirishsite.com, we've established ourselves as Ireland's premier destination for betting
               platform evaluation. In today's overwhelming marketplace, our specialized team cuts through the noise to
               identify truly exceptional betting experiences tailored specifically for Irish punters.
             </p>
