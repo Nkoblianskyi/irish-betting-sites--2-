@@ -22,7 +22,7 @@ export function CookieBanner() {
           <div className="flex flex-col sm:flex-row gap-2">
             <Button
               variant="outline"
-              className="border-white text-red hover:bg-indigo-800 transition-all duration-300 hover:shadow-md"
+              className="border-white text-black hover:bg-indigo-800 transition-all duration-300 hover:shadow-md"
               onClick={declineAll}
             >
               Decline

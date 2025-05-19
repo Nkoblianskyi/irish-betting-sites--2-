@@ -53,17 +53,14 @@ export function BettingSitesList() {
         ></div>
       </div>
 
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-4 md:mb-6">
+      <div className="container mx-auto px-2">
+        <div className="text-center mb-2 md:mb-2">
           <Badge variant="outline" className="bg-indigo-50 text-indigo-700 mb-1">
             EXPERT REVIEWED
           </Badge>
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-1 md:mb-2 animate-fade-in">
             Top-Rated Irish Betting Platforms
           </h2>
-          <p className="text-xs md:text-sm text-gray-600 max-w-2xl mx-auto">
-            Our experts have thoroughly evaluated these platforms based on bonuses, odds, features, and user experience.
-          </p>
         </div>
 
         <div className="w-full space-y-4 md:space-y-6">

@@ -21,7 +21,7 @@ export default function Home() {
       <SiteHeader />
 
       {/* Add padding to the top to account for the fixed header */}
-      <div className="pt-16">
+      <div className="pt-10">
         {/* Hero Section - Redesigned */}
         <section className="relative bg-gradient-to-r from-indigo-900 via-purple-900 to-indigo-800 text-white overflow-hidden">
           {/* Background Image with Overlay */}
@@ -43,7 +43,7 @@ export default function Home() {
             <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-purple-500 to-transparent"></div>
           </div>
 
-          <div className="container mx-auto px-4 py-8 md:py-12 relative z-10">
+          <div className="container mx-auto px-2 py-4 md:py-8 relative z-10">
             {/* Main Content */}
             <div className="max-w-4xl mx-auto text-center">
               {/* Main heading with animation */}
@@ -58,7 +58,7 @@ export default function Home() {
 
               {/* Features with animation */}
               <div
-                className="grid grid-cols-3 md:grid-cols-3 gap-4 md:gap-8 mb-6 animate-fade-in-up"
+                className="grid grid-cols-3 md:grid-cols-3 gap-4 md:gap-4 mb-4 animate-fade-in-up"
                 style={{ animationDelay: "400ms" }}
               >
                 <div className="flex flex-col items-center group">
