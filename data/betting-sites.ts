@@ -19,7 +19,7 @@ export const bettingSites: BettingSite[] = [
     bonus: "BET €5 GET €20",
     features: ["Betting Exchange", "Best Odds", "Cash Out"],
     paymentMethods: ["Visa/Mastercard", "PayPal", "Bank Transfer"],
-    link: "https://ie.mrplay.com/sport/",
+    link: "https://www.quinnbet.com/ie/sports/",
     reviews: 2767, // Added mock review count
   },
   {
@@ -30,7 +30,7 @@ export const bettingSites: BettingSite[] = [
     bonus: "BET €10 GET €50",
     features: ["Live Streaming", "Cash Out Feature", "Mobile App"],
     paymentMethods: ["Visa/Mastercard", "PayPal", "Apple Pay"],
-    link: "https://www.betiton.com/en-ie/sport/",
+    link: "https://www.betiton.com/en-ie/sport/https://ie.mrplay.com/sport",
     reviews: 2583, // Added mock review count
   },
   {
@@ -41,7 +41,7 @@ export const bettingSites: BettingSite[] = [
     bonus: "BET €10 GET €10",
     features: ["Fast Payouts", "Live Betting", "Loyalty Program"],
     paymentMethods: ["Visa/Mastercard", "Skrill", "Neteller"],
-    link: "https://www.quinnbet.com/ie/sports",
+    link: "https://ie.mrplay.com/sport/",
     reviews: 2493, // Added mock review count
   }
 ]
