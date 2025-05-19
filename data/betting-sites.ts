@@ -12,9 +12,9 @@ export interface BettingSite {
 
 export const bettingSites: BettingSite[] = [
   {
-    id: "mrplay",
-    name: "mrplay",
-    logo: "/Screenshot_1222.png",
+    id: "quinnbet",
+    name: "QuinnBet",
+    logo: "/quinn.png",
     score: 9.8,
     bonus: "BET €5 GET €20",
     features: ["Betting Exchange", "Best Odds", "Cash Out"],
@@ -34,9 +34,9 @@ export const bettingSites: BettingSite[] = [
     reviews: 2583, // Added mock review count
   },
   {
-    id: "quinn",
-    name: "quinn",
-    logo: "/quinn.png",
+    id: "mplay",
+    name: "Mrplay",
+    logo: "/Screenshot_1222.png",
     score: 9.6,
     bonus: "BET €10 GET €10",
     features: ["Fast Payouts", "Live Betting", "Loyalty Program"],
