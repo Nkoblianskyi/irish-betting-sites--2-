@@ -12,6 +12,17 @@ export interface BettingSite {
 
 export const bettingSites: BettingSite[] = [
   {
+    id: "mrplay",
+    name: "mrplay",
+    logo: "/Screenshot_1222.png",
+    score: 9.3,
+    bonus: "BET €5 GET €20",
+    bonusCode: "BF20",
+    features: ["Betting Exchange", "Best Odds", "Cash Out"],
+    paymentMethods: ["Visa/Mastercard", "PayPal", "Bank Transfer"],
+    link: "https://ie.mrplay.com/sport/",
+  },
+  {
     id: "betiton",
     name: "betiton",
     logo: "/betiton.png",
@@ -32,16 +43,5 @@ export const bettingSites: BettingSite[] = [
     features: ["Fast Payouts", "Live Betting", "Loyalty Program"],
     paymentMethods: ["Visa/Mastercard", "Skrill", "Neteller"],
     link: "https://www.quinnbet.com/ie/sports",
-  },
-  {
-    id: "mrplay",
-    name: "mrplay",
-    logo: "/Screenshot_1222.png",
-    score: 9.3,
-    bonus: "BET €5 GET €20",
-    bonusCode: "BF20",
-    features: ["Betting Exchange", "Best Odds", "Cash Out"],
-    paymentMethods: ["Visa/Mastercard", "PayPal", "Bank Transfer"],
-    link: "https://ie.mrplay.com/sport/",
   }
 ]
