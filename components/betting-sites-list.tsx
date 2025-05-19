@@ -121,10 +121,6 @@ export function BettingSitesList() {
                   <div className="mb-2 md:mb-4">
                     <p className="text-[10px] md:text-xs text-indigo-600 uppercase font-semibold">WELCOME OFFER</p>
                     <p className="font-bold text-base md:text-xl text-gray-800">{site.bonus}</p>
-                    {site.bonusCode && (
-                      <div className="mt-1">
-                      </div>
-                    )}
                   </div>
 
                   <div className="grid grid-cols-2 gap-1 md:gap-2">
