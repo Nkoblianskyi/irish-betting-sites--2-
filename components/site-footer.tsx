@@ -154,7 +154,7 @@ export function SiteFooter() {
       <div className="bg-indigo-950 py-4">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-sm text-gray-400">© 2023 BestBettingIrishSite.com. All rights reserved.</p>
+            <p className="text-sm text-gray-400">© 2025 BestBettingIrishSite.com. All rights reserved.</p>
             <div className="flex items-center gap-2">
               <AlertTriangle className="h-4 w-4 text-yellow-500" />
               <span className="text-xs text-gray-400">Gambling can be addictive. Play responsibly.</span>
