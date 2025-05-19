@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import { Dices, Shield, Info, AlertTriangle } from "lucide-react"
+import { Dices, Shield, Info, AlertTriangle, Trophy } from "lucide-react"
 
 export function SiteFooter() {
   return (
@@ -10,16 +10,17 @@ export function SiteFooter() {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 border-b border-gray-700 pb-8">
           {/* Logo and description - 3 columns */}
           <div className="md:col-span-3 space-y-4">
-            <div className="flex items-center gap-2">
-              <div className="relative h-10 w-10 bg-white rounded-lg shadow-md overflow-hidden flex items-center justify-center">
+            <Link href="/" className="flex items-center gap-2 group">
+              <div className="relative h-10 w-10 bg-white rounded-lg shadow-md overflow-hidden flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
                 <div className="absolute inset-0 bg-gradient-to-br from-indigo-500 to-purple-600 opacity-90"></div>
-                <Dices className="h-6 w-6 text-white relative z-10" />
+                <Trophy className="h-6 w-6 text-white relative z-10 transition-transform duration-300 group-hover:rotate-12" />
               </div>
               <div className="flex flex-col">
-                <span className="text-xl font-bold text-white leading-none">BestBettingIrishSite</span>
-                <span className="text-xs text-purple-300">.com</span>
+                <span className="text-xl font-bold text-white transition-colors duration-300 group-hover:text-purple-300 leading-none">
+                  BestBettingIrishSite
+                </span>
               </div>
-            </div>
+            </Link>
             <p className="text-gray-300 text-sm">
               Your trusted guide to Ireland's premier betting platforms. We provide expert reviews, exclusive bonuses,
               and comprehensive comparisons to enhance your betting experience.

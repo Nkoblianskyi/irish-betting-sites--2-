@@ -1,4 +1,5 @@
 export interface BettingSite {
+  reviews: number
   id: string
   name: string
   logo: string
@@ -8,6 +9,7 @@ export interface BettingSite {
   features: string[]
   paymentMethods: string[]
   link: string
+  reviews: number
 }
 
 export const bettingSites: BettingSite[] = [
@@ -15,23 +17,25 @@ export const bettingSites: BettingSite[] = [
     id: "mrplay",
     name: "mrplay",
     logo: "/Screenshot_1222.png",
-    score: 9.3,
+    score: 9.8,
     bonus: "BET €5 GET €20",
     bonusCode: "BF20",
     features: ["Betting Exchange", "Best Odds", "Cash Out"],
     paymentMethods: ["Visa/Mastercard", "PayPal", "Bank Transfer"],
     link: "https://ie.mrplay.com/sport/",
+    reviews: 2767, // Added mock review count
   },
   {
     id: "betiton",
     name: "betiton",
     logo: "/betiton.png",
-    score: 9.8,
+    score: 9.7,
     bonus: "BET €10 GET €50",
     bonusCode: "BONUS50",
     features: ["Live Streaming", "Cash Out Feature", "Mobile App"],
     paymentMethods: ["Visa/Mastercard", "PayPal", "Apple Pay"],
     link: "https://www.betiton.com/en-ie/sport/",
+    reviews: 2583, // Added mock review count
   },
   {
     id: "quinn",
@@ -43,5 +47,6 @@ export const bettingSites: BettingSite[] = [
     features: ["Fast Payouts", "Live Betting", "Loyalty Program"],
     paymentMethods: ["Visa/Mastercard", "Skrill", "Neteller"],
     link: "https://www.quinnbet.com/ie/sports",
+    reviews: 2493, // Added mock review count
   }
 ]

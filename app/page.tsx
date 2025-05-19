@@ -86,14 +86,6 @@ export default function Home() {
               {/* Stats with animation */}
               <div className="flex justify-center gap-8 mb-6 animate-fade-in-up" style={{ animationDelay: "600ms" }}>
                 <div className="text-center">
-                  <div className="text-2xl md:text-3xl font-bold text-indigo-300">5+</div>
-                  <div className="text-xs text-gray-300">Top Bookmakers</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-2xl md:text-3xl font-bold text-indigo-300">€100+</div>
-                  <div className="text-xs text-gray-300">In Bonuses</div>
-                </div>
-                <div className="text-center">
                   <div className="text-2xl md:text-3xl font-bold text-indigo-300">24/7</div>
                   <div className="text-xs text-gray-300">Expert Support</div>
                 </div>

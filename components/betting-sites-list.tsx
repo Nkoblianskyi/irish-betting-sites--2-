@@ -104,9 +104,7 @@ export function BettingSitesList() {
                     </div>
                     <div className="flex items-center justify-center gap-1 md:gap-2">
                       <span className="text-lg md:text-2xl font-bold text-gray-800">{site.score.toFixed(1)}</span>
-                      <span className="text-[10px] md:text-xs text-gray-500">
-                        ({Math.floor(Math.random() * 1000) + 2000} reviews)
-                      </span>
+                      <span className="text-[10px] md:text-xs text-gray-500">({site.reviews || 2500} reviews)</span>
                     </div>
                   </div>
                 </div>
@@ -125,10 +123,6 @@ export function BettingSitesList() {
                     <p className="font-bold text-base md:text-xl text-gray-800">{site.bonus}</p>
                     {site.bonusCode && (
                       <div className="mt-1">
-                        <span className="text-[10px] md:text-xs text-gray-500">Bonus Code:</span>{" "}
-                        <span className="font-mono bg-gray-100 px-1 md:px-2 py-0.5 md:py-1 rounded text-[10px] md:text-xs">
-                          {site.bonusCode}
-                        </span>
                       </div>
                     )}
                   </div>
